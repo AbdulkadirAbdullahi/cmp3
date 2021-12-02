@@ -26035,6 +26035,16 @@ ion-icon {
   font-weight: bolder;
 }
 
+page-about .about {
+  font-size: 30px !important;
+  text-align: center;
+}
+
+page-about .tack {
+  font-size: 25px !important;
+  color: #070606;
+}
+
 page-bookdetail ::-webkit-scrollbar,
 page-bookdetail *::-webkit-scrollbar {
   display: none;
@@ -26394,6 +26404,15 @@ page-library #h {
 #moduleCard:hover img {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+}
+
+.headText {
+  color: green;
+  font-size: 50px;
+}
+
+.cat {
+  font-size: 20px;
 }
 
 page-live #userMe {
@@ -26891,6 +26910,13 @@ page-moduledetail iframe, page-moduledetail object, page-moduledetail embed {
 
 /* -----CSS for mediuim devices----- */
 /* ------ CSS for large device ------ */
+.sch {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: green;
+}
+
 .corners {
   background: #FFF;
   margin: 50px auto;
@@ -27100,12 +27126,6 @@ page-profiledetail #update_card {
 
 page-profiledetail #data {
   margin-bottom: 65px;
-}
-
-page-profiledetail .request {
-  text-align: center;
-  font-size: x-large;
-  margin-top: 10px;
 }
 
 page-quiz .qbox {
