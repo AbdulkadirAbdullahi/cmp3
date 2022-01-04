@@ -1,14 +1,14 @@
 webpackJsonp([17],{
 
-/***/ 572:
+/***/ 573:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FriendchatPageModule", function() { return FriendchatPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FriendlistPageModule", function() { return FriendlistPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__friendchat__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__friendlist__ = __webpack_require__(107);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,20 +18,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-let FriendchatPageModule = class FriendchatPageModule {
+let FriendlistPageModule = class FriendlistPageModule {
 };
-FriendchatPageModule = __decorate([
+FriendlistPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__friendchat__["a" /* FriendchatPage */],
+            __WEBPACK_IMPORTED_MODULE_2__friendlist__["a" /* FriendlistPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__friendchat__["a" /* FriendchatPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__friendlist__["a" /* FriendlistPage */]),
         ],
     })
-], FriendchatPageModule);
+], FriendlistPageModule);
 
-//# sourceMappingURL=friendchat.module.js.map
+//# sourceMappingURL=friendlist.module.js.map
 
 /***/ })
 

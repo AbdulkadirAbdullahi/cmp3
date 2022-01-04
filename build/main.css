@@ -1,3 +1,34 @@
+.dark-theme #reg {
+  background: linear-gradient(316deg, #4b0a4b, #541654, #770682, #9e0491, #82087b, #a03088, #833c77) !important;
+  background-size: 1800% 1800% !important;
+  -webkit-animation: rainbow 30s linear infinite !important;
+  animation: rainbow 30s linear infinite !important;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
 .dark-theme .header .toolbar-background {
   border-bottom-color: yellow;
   border-width: medium;
@@ -49,15 +80,23 @@
   color: lightgray;
 }
 
+.dark-theme #inputlabel {
+  color: blanchedalmond !important;
+}
+
 .dark-theme #login-form {
   -webkit-box-shadow: 3px 3px  #8533ff;
   box-shadow: 3px 3px  #8533ff;
-  background-color: #0a001a;
+  background-color: #523a77;
   color: #a366ff;
 }
 
+.dark-theme ion-content {
+  background-color: #12181b;
+}
+
 .dark-theme .input {
-  background-color: #0a001a;
+  background-color: #420749;
 }
 
 .dark-theme .buttons {
@@ -121,6 +160,25 @@
 
 .dark-theme ::-webkit-scrollbar-thumb {
   background-color: #5c0fce !important;
+}
+
+.light-theme #reg {
+  background: linear-gradient(316deg, #767676, #c5b2c5, #bfbac0);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 30s linear infinite;
+  animation: rainbow 30s linear infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
 }
 
 .light-theme .toolbar-title {
@@ -25995,6 +26053,18 @@ ion-navbar.toolbar {
   min-height: 46px;
 }
 
+.number-circle {
+  color: white;
+  font-weight: 700;
+  border-radius: 50%;
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  line-height: 20px;
+  text-align: center;
+  font-size: larger;
+}
+
 .img {
   display: block;
   margin-left: auto;
@@ -26035,14 +26105,17 @@ ion-icon {
   font-weight: bolder;
 }
 
-page-about .about {
-  font-size: 30px !important;
-  text-align: center;
+.icon {
+  padding-left: 10px !important;
+  font-weight: bold;
+  color: #003000;
 }
 
-page-about .tack {
-  font-size: 25px !important;
-  color: #070606;
+.cmp {
+  text-align: center !important;
+  font-weight: bold !important;
+  color: white !important;
+  font-size: larger;
 }
 
 page-bookdetail ::-webkit-scrollbar,
@@ -26066,6 +26139,21 @@ page-bookdetail *::-webkit-scrollbar .scroll {
 #cnt {
   width: 100%;
   height: 100% !important;
+}
+
+page-fakeinformation #fake {
+  width: 60 !important;
+  margin: auto !important;
+  color: lavender;
+}
+
+.tarea {
+  border: 2px solid #19fa25;
+  border-radius: 15px;
+}
+
+.ize {
+  font-size: x-large !important;
 }
 
 page-friendchat ion-icon {
@@ -26095,53 +26183,53 @@ page-friendchat ion-icon {
   max-width: 250px;
 }
 
-page-friendlist .h_c {
+.h_c {
   width: 100%;
 }
 
-page-friendlist .l_l {
+.l_l {
   width: 10%;
 }
 
-page-friendlist .s_bar {
+.s_bar {
   width: 90%;
 }
 
-page-friendlist .title {
+.title {
   font-size: 30px !important;
   color: lawngreen;
 }
 
-page-friendlist ion-searchbar .searchbar-input-container .searchbar-input {
+ion-searchbar .searchbar-input-container .searchbar-input {
   background-color: white;
   border-radius: 20px;
   color: black;
   border: 1px solid lawngreen;
 }
 
-page-friendlist .mdetail {
+.mdetail {
   margin-left: 10px;
   padding-top: 10px;
 }
 
-page-friendlist .username {
+.username {
   color: #3f3f3f;
   font-weight: bold;
   overflow-wrap: break-word;
 }
 
-page-friendlist .from {
+.from {
   color: green;
 }
 
-page-friendlist .membersCard {
+.membersCard {
   -webkit-box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
   box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
   border-radius: 20px;
   float: left;
 }
 
-page-friendlist .avatar {
+.avatar {
   width: 10%;
   float: left;
   margin-right: 10px;
@@ -26149,16 +26237,16 @@ page-friendlist .avatar {
   border-radius: 20px;
 }
 
-page-friendlist .item-md, page-friendlist .item-ios {
+.item-md, .item-ios {
   padding-left: 0px;
 }
 
-page-friendlist .item-md ion-avatar img, page-friendlist .item-ios ion-avatar img {
+.item-md ion-avatar img, .item-ios ion-avatar img {
   width: 68px;
   height: 68px;
 }
 
-page-friendlist .item-md ion-avatar[item-start], page-friendlist .item-ios ion-avatar[item-start] {
+.item-md ion-avatar[item-start], .item-ios ion-avatar[item-start] {
   margin: 0px 10px 8px 0;
   border: 1px solid green;
   border-radius: 50%;
@@ -26412,7 +26500,8 @@ page-library #h {
 }
 
 .cat {
-  font-size: 20px;
+  font-size: 25px !important;
+  font-weight: bolder;
 }
 
 page-live #userMe {
@@ -26606,18 +26695,6 @@ page-login ion-content {
   background-size: 1800% 1800%;
   -webkit-animation: rainbow 30s linear infinite;
   animation: rainbow 30s linear infinite;
-}
-
-@-webkit-keyframes rainbow {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
 }
 
 @keyframes rainbow {
@@ -27273,10 +27350,10 @@ page-studentlist .title {
 }
 
 page-studentlist ion-searchbar .searchbar-input-container .searchbar-input {
-  background-color: white;
+  background-color: #5eff6c;
   border-radius: 20px;
   color: black;
-  border: 1px solid #5cb305;
+  border: 1px solid #63f700;
 }
 
 page-studentlist .mdetail {
@@ -27336,5 +27413,10 @@ page-studentlist .headText {
 
 page-studentlist .sp {
   font-size: xx-large;
-  font-size: 40px;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+page-studentlist .ch {
+  color: white !important;
 }

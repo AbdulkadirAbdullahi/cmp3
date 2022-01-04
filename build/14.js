@@ -1,14 +1,14 @@
 webpackJsonp([14],{
 
-/***/ 575:
+/***/ 576:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FriendrqPageModule", function() { return FriendrqPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FriendsPageModule", function() { return FriendsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__friendrq__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__friends__ = __webpack_require__(184);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,20 +18,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-let FriendrqPageModule = class FriendrqPageModule {
+let FriendsPageModule = class FriendsPageModule {
 };
-FriendrqPageModule = __decorate([
+FriendsPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__friendrq__["a" /* FriendrqPage */],
+            __WEBPACK_IMPORTED_MODULE_2__friends__["a" /* FriendsPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__friendrq__["a" /* FriendrqPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__friends__["a" /* FriendsPage */]),
         ],
     })
-], FriendrqPageModule);
+], FriendsPageModule);
 
-//# sourceMappingURL=friendrq.module.js.map
+//# sourceMappingURL=friends.module.js.map
 
 /***/ })
 
