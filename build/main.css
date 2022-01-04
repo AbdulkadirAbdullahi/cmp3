@@ -26581,36 +26581,37 @@ ion-segment-button {
 .chat .me {
   position: relative;
   margin: 15px;
-  max-width: 80%;
+  max-width: 60%;
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
   padding: 10px 20px 5px;
   border-radius: 40px 40px 0;
-  background-color: chartreuse;
-  font-size: medium;
+  background-color: #90e634;
+  color: black;
+  font-size: large;
   line-height: 1.4;
 }
 
 .you {
   position: relative;
   margin: 15px;
-  max-width: 80%;
+  max-width: 60%;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
   padding: 10px 15px 3px;
   border-radius: 40px 40px 40px 0;
-  background-color: darkgreen;
-  color: white;
-  font-size: medium;
+  background-color: #84f084;
+  color: black;
+  font-size: large;
   line-height: 1.4;
 }
 
 .you .name {
-  font-size: small;
-  font-weight: bold;
-  color: chartreuse;
+  font-size: medium;
+  font-weight: bolder;
+  color: #132403;
 }
 
 #footer input {
@@ -26657,6 +26658,51 @@ page-livevideo .ldiv {
   text-align: center;
 }
 
+page-login {
+  /*
+  ion-content {
+    background: linear-gradient(316deg, #1de840,#00c983, #7fff00,#009900,#00c983, #009900,#00c983, );
+    background-size: 1800% 1800%;
+    animation: rainbow 30s linear infinite;
+  }
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 0%
+    }
+    50% {
+      background-position: 100% 100%
+    }
+    100% {
+      background-position: 0% 0%
+    }
+  }
+  */
+}
+
+page-login .input {
+  background-color: lightgreen;
+  padding: 25px;
+  color: black;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+page-login #inputlabel {
+  color: black !important;
+  font-weight: bolder !important;
+  font-size: larger !important;
+}
+
+page-login #reg {
+  background-color: #e1ffea;
+}
+
+page-login .dh {
+  color: green;
+  font-weight: bolder;
+  font-size: larger;
+}
+
 page-login .toolbar-content,
 page-login span {
   color: white;
@@ -26688,25 +26734,6 @@ page-login .footer {
 page-login .footer-md::before {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
   background-image: none;
-}
-
-page-login ion-content {
-  background: linear-gradient(316deg, #1de840, #00c983, #7fff00, #009900, #00c983, #009900, #00c983);
-  background-size: 1800% 1800%;
-  -webkit-animation: rainbow 30s linear infinite;
-  animation: rainbow 30s linear infinite;
-}
-
-@keyframes rainbow {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
 }
 
 page-login .scroll-content {
@@ -26842,7 +26869,7 @@ page-login .strike > span:after {
 }
 
 #emadrisa {
-  color: whitesmoke !important;
+  color: #22bb5d !important;
   font-size: 110px;
   font-weight: bold;
 }
@@ -27033,6 +27060,10 @@ page-moduledetail iframe, page-moduledetail object, page-moduledetail embed {
   right: -50px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+page-profile .updateCard {
+  width: 40% !important;
 }
 
 page-profile .header-row {
@@ -27261,6 +27292,52 @@ page-quiz .scoreremark {
   }
 }
 
+page-register {
+  /*
+ion-content {
+  background: linear-gradient(316deg, #1de840,#00c983, #7fff00,#009900,#00c983, #009900,#00c983, );
+  background-size: 1800% 1800%;
+    animation: rainbow 30s linear infinite;
+  }
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 0%
+    }
+    50% {
+      background-position: 100% 100%
+    }
+    100% {
+      background-position: 0% 0%
+    }
+  }
+  // Content
+  */
+}
+
+page-register .input {
+  background-color: lightgreen;
+  padding: 25px;
+  color: black;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+page-register #inputlabel {
+  color: black !important;
+  font-weight: bolder !important;
+  font-size: larger !important;
+}
+
+page-register #reg {
+  background-color: #e1ffea;
+}
+
+page-register .dh {
+  color: green;
+  font-weight: bolder;
+  font-size: larger;
+}
+
 page-register ion-item {
   border-radius: 3px !important;
   padding-left: 10px !important;
@@ -27279,25 +27356,6 @@ page-register .item-inner {
   border-bottom: 0 !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-}
-
-page-register ion-content {
-  background: linear-gradient(316deg, #1de840, #00c983, #7fff00, #009900, #00c983, #009900, #00c983);
-  background-size: 1800% 1800%;
-  -webkit-animation: rainbow 30s linear infinite;
-  animation: rainbow 30s linear infinite;
-}
-
-@keyframes rainbow {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
 }
 
 #invalid {
